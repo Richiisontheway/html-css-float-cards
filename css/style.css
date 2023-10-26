@@ -48,7 +48,7 @@ img{
 
 .color-black{
     background-color: black;
-    width: 300px;
+    width: 350px;
 }
 
 .immagine{
@@ -66,4 +66,13 @@ img{
     padding-top: 10px;
     color:white;
 }
+
+.email{
+    text-decoration: none;
+    padding-top: 10px;
+    display: inline-block;
+    color: cornflowerblue;
+}
+
+
 
