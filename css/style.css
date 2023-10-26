@@ -36,11 +36,9 @@ p{
     text-align: center;
 }
 
-img{
-    float: left;
-}
 
-.container-img::after{
+
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -49,7 +47,10 @@ img{
 .color-black{
     background-color: black;
     width: 350px;
-}
+    float: left;
+
+
+} 
 
 .immagine{
     float: left;  
@@ -58,6 +59,9 @@ img{
 
 .distance{
     margin-top: 50px;
+    width: calc(100% / 3 - 20px);
+    margin: 20px;
+    
 }
 
 .info{
@@ -73,6 +77,8 @@ img{
     display: inline-block;
     color: cornflowerblue;
 }
+
+
 
 
 
